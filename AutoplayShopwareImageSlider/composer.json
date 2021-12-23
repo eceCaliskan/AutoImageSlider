@@ -1,0 +1,18 @@
+{
+  "name": "swag/plugin-skeleton",
+  "description": "It adds automatic rotation to the default shopware 6 image slider",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Autoplay\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "Autoplay\\Autoplay",
+    "label": {
+      "de-DE": "AutoplayShopwareSlider",
+      "en-GB": "AutoplayShopwareSlider"
+    }
+  }
+}
