@@ -148,6 +148,18 @@
                             </sw-field>
                             {% endblock %}
                         </div>
+<div class="sw-cms-el-config-image-slider__settings-navigation">
+                            {% block sw_cms_element_image_slider_config_settings_autoplaySpeed %}
+                            <div class="slider_autoplaySpeed_field">
+                                <sw-field
+                                        label="Autoplay Speed"
+                                        v-model="element.config.autoplaySpeed.value"
+                                ></sw-field>
+                            </div>
+                            
+                            {% endblock %}
+                        </div>
+
 
                         <div class="sw-cms-el-config-image-slider__settings-navigation">
                             {% block sw_cms_element_image_slider_config_settings_autoplay %}

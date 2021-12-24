@@ -12,5 +12,8 @@ imageConfig.defaultConfig.autoplay = {
     value: true
 }
 
-
+imageConfig.defaultConfig.autoplaySpeed = {
+    source: 'static',
+    value: 100
+}
 Shopware.Service('cmsService').registerCmsElement(imageConfig);
